@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/info8"
+        android:hint="姓名"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:id="@+id/info9"
+        android:hint="性别"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+    <EditText
+        android:id="@+id/info10"
+        android:hint="年龄"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+    <EditText
+        android:id="@+id/info11"
+        android:hint="出生日期"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+    <Button
+        android:id="@+id/button7"
+        android:text="保存"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000ff"
+        android:background="#ff888888"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

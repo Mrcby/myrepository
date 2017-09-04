@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/info1"
+        android:hint="姓名"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:id="@+id/info2"
+        android:hint="性别"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+    <EditText
+        android:id="@+id/info3"
+        android:hint="年龄"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+    <EditText
+        android:id="@+id/info4"
+        android:hint="出生日期"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/info15"
+        android:hint="车辆类型"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+    <EditText
+        android:id="@+id/info5"
+        android:hint="驾驶证编号"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+    <Button
+        android:id="@+id/info6"
+        android:text="保存"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000ff"
+        android:background="#ff888888"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

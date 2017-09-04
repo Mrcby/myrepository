@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_drivername"
+        android:hint="请输入手机号"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"/>
+    <EditText
+        android:id="@+id/et_driverpwd"
+        android:hint="请输入密码"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+    <EditText
+        android:id="@+id/et_confirmmpwd"
+        android:hint="请确认密码"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+    <Button
+        android:id="@+id/bt_driverRegistere"
+        android:text="司机注册"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000ff"
+        android:background="#ff888888"
+        android:textSize="20dp"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
